@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  celery:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - './:/usr/src'
+    env_file:
+      - .env
+    depends_on:
+      - rabbitmq
+
+  rabbitmq:
+    image: rabbitmq:latest
+    environment:
+        RABBITMQ_DEFAULT_USER: rabbitmq
+        RABBITMQ_DEFAULT_PASS: rabbitmq
+    ports:
+      - 5672:5672
