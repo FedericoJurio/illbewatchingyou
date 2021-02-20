@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/FedericoJurio/illbewatchingyou/blob/master/static/rat.png?raw=true" alt="Logo" width="128" height="128">
+  <img src="https://github.com/FedericoJurio/illbewatchingyou/blob/main/static/rat.png?raw=true" alt="Logo" width="128" height="128">
 </p>
 <h3 align="center">I'll be watching you</h3>
 <p align="center">Watch product availability in MercadoLibre</p>
