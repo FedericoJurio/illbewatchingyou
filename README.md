@@ -1,4 +1,9 @@
-# I'll be watching you
+<p align="center">
+  <img src="https://github.com/FedericoJurio/illbewatchingyou/blob/master/static/rat.png?raw=true" alt="Logo" width="128" height="128">
+</p>
+<h3 align="center">I'll be watching you</h3>
+<p align="center">Watch product availability in MercadoLibre</p>
+
 ## About the project
 I'll be watching you provides a periodic task to verify the availability of products in MercadoLibre and sends a message through Telegram when there's stock.
 
